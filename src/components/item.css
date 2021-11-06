@@ -1,0 +1,52 @@
+.itemProduit{
+    display: flex;
+    border: 1px solid rgb(238, 231, 231);
+}
+.sideimg>img{
+    height: 170px;
+    margin: 10px;
+}
+.sideimg{
+    width: 200px;
+}
+.printerink>p{
+    margin-left: 130px;
+    font-size: 13px;
+}
+
+.checkboxbut{
+    display: flex;
+    align-items: center;
+}
+.checkboxbut>p{
+    margin-left: 10px;
+}
+.datail1{
+    padding: 10px;
+    margin-left: 35px;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+}
+.quantity>div{
+    margin: 10px 5px;
+}
+.quantity>select{
+    padding: 5px;
+    border: 1px solid rgb(199, 187, 187);
+    border-radius: 10px;
+    width: 80px;
+    background-color: rgb(239, 242, 245);
+}
+.quantity>select:focus {
+        outline: none;
+        border: 0;
+}
+.delete ,.saveforlater, .comparewith{
+    color: rgb(16, 133, 26);
+    font-size: 12px;
+}
+.delete:hover ,.saveforlater:hover, .comparewith:hover{
+    text-decoration: underline;
+}

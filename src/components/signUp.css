@@ -1,0 +1,141 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    height: 100vh;
+    
+}
+.agree{
+    margin-bottom: 35px;
+}
+
+.help>span{
+    margin-top: 10px;
+    color: blue;
+}
+.signUp1>p{
+    padding-top: 10px;
+    font-size: 12px;
+    width: 280px;
+
+}
+.signUp1>h5, .password>h5{
+    margin-bottom: 5px;
+}
+.createItem{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h4{
+    margin-top: 15px;
+    color: rgb(54, 59, 133);
+}
+.buttonContinue2{
+    background-color: rgb(247, 198, 107);
+    height: 30px;
+    width: 302px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(141, 127, 127);
+    transition: all 1s;
+    cursor: pointer;
+}
+.password>input::placeholder{
+    padding-left: 5px;
+    margin-left: 5px;
+}
+.logo1>img{
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+}
+.signUp1>input, .password>input{
+    padding: 0px 10px;
+    border-radius: 4px;
+    height: 20px;
+    min-height: 30px;
+    max-height: 30px;
+    width: 300px;
+    border: 1px solid rgb(141, 127, 127);
+    margin-bottom: 15px;
+}
+.loginForm2{
+    display: flex;
+    height: 90vh;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+    /* min-width: 40%; */
+}
+.signUp1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px 30px;
+    width: 40%;
+    min-width: 300px;
+    height: 900px;
+    border: 1px solid rgb(209, 199, 199);
+}
+
+
+.signUp{
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.signUpButton{
+    margin-top: 10px;
+    height: 42px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    min-width: 360px;
+    background-color: rgb(240, 245, 245);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 212, 212);
+}
+.createAmazon{
+    background-color: rgb(240, 245, 245);
+    width: 100%;
+}
+
+
+.bottom2{
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.condition{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.password{
+    height: 80px;
+    line-height: 18px;
+}
+.password>p{
+    margin-top: -10px;
+    
+}
+.password>span{
+    font-size: 16px;
+}

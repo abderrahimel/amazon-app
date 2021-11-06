@@ -1,0 +1,340 @@
+.containerHeader{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    line-height: 12px;
+    min-width: 1140px;
+}
+.signin-header{
+    border: 0;
+    background-color: #0F1111;
+    color: white;
+    outline: none;
+}
+.headerLogo>img{
+    width: 100px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.cartCount{
+    padding-left: 4px;
+}
+.headerSearch{
+    display: flex;
+}
+.headerNavItems{
+    display: flex;
+    align-items: center;
+}
+.OptionLineTwo{
+    font-weight: 60px;
+}
+.OptionLineTwo>p{
+    color: white;
+}
+.headerOption{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: small;
+}
+
+
+.headerSearchIconContainer {
+    background-color: #febd69;
+    width: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerSearchCategory{
+    width: 100px;
+    height: 100%;
+}
+.headerSearchCategory>select{
+    /* width: 200px; */
+     height: 100%;
+     outline: none;
+     border: 0;
+
+
+    background-color: rgb(143, 146, 146);
+}
+
+.headerSearchCategory>select:focus{
+    border-color: #F90;
+}
+.headerOptionAddress{
+    padding-left: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.headerOptionCart{
+    display: flex;
+    align-items: center;
+    padding-right: 9px;
+    color: white;
+}
+.navCountry{
+    padding: 0 10px;
+}
+.headerSearch{
+    display: flex;
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 4px;
+    background-color: white;
+}
+.OptionLineOne>span, .OptionLineTwo>span{
+    color: white;
+    font-size: 12px;
+}
+
+.headerSearchCategory>select:focus {
+    box-shadow: 0 0 0 3px #F90;
+}
+/* foucus-within make boder engender the div */
+.headerSearch:focus-within{
+    box-shadow: 0 0 0 3px #F90;
+}
+.headerSearchInput{
+    /* flex-grow like tell to the  item to take all the free space in the container */
+    flex-grow: 1;
+    border: 0;
+    margin-left: -45px;
+}
+
+.headerSearchInput:focus{
+     outline: none;
+}
+
+.navCountry>img{
+    width: 25px;
+    height: 20px;
+}
+.navCountry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-sign-in>select{
+     border: 0;
+     outline: none;
+     background-color: #0F1111;
+     color: white;
+}
+.option-sign-in{
+    background-color: white;
+    color: #0F1111;
+}
+
+.sign-in-list{
+    cursor: pointer;
+}
+
+
+.select-sign-in>ul{
+    background-color: #F90;
+}
+
+/* .list-signIn{
+    margin-top: 35px;
+} */
+
+.OptionLineTwo>ul{
+    display: none;
+    background-color: #fff;
+    color: #22cccc;
+    list-style: none;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+}
+.list-signIn:hover > .OptionLineTwo>ul{
+    display: block;
+}
+.list-signIn:hover{
+    /* margin-top: 35px; */
+    /* top: 35px; */
+}
+
+.list-signIn{
+    position: relative;
+}
+
+
+.OptionLineTwo>p{
+    margin-bottom: 15px;
+}
+
+.OptionLineTwo>ul>li>div{
+    background-color: #F90;
+}
+
+.list-signIn-item{
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    background-color: white;
+    z-index: 3;
+    width: 400px;
+    height: 380px;
+    color: black;
+    
+}
+
+
+
+.div-button-sign-in1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 25px;
+}
+.button-sign-in{
+    background-color: rgb(230, 168, 75);
+    border: 1px solid rgb(138, 119, 119);
+    height: 30px;
+
+}
+.button-sign-in:hover{
+    background-color: #F90;
+}
+.new-customer{
+    padding: 10px;
+}
+.your-list-your-account1{
+    display: flex;
+    padding: 10px;
+
+}
+.your-list-your-account1>p{
+    margin-bottom: 10px;
+   
+}
+
+.link-sign-out:hover{
+    text-decoration: underline;
+    color: #F90;
+}
+.your-list-your-account-item1{
+    width: 50%;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+}
+.your-list-your-account-item1>p:hover{
+    text-decoration: underline;
+    color: #F90;
+}
+.item-boder-right{
+    border-right: 1px solid rgb(236, 221, 221);
+}
+
+
+nav{
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: white;
+    color: black;
+    position:absolute;
+    z-index: 3;
+    width: 550px;
+    right: -100px;
+    height: 400px;
+    display: none;
+}
+
+.list-signIn:hover nav {
+  display: block;
+}
+nav::before{
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: 153px;
+        width: 20px;
+        height: 20px;
+        background: white;
+        transform: rotate(45deg);
+}
+
+
+.new-customer>span:hover{
+    text-decoration: underline;
+    color: #F90;
+}
+
+.nav-country{
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    /* background-color: #F90; */
+    width: 260px;
+    height: 400px;
+    margin-right: -200px;
+    display: none;
+    font-size: 14px;
+}
+
+.input-radio>p:hover, span:hover{
+    color: #F90;
+    text-decoration: underline;
+}
+.list--country>p>span:hover,.usd-change>span:hover{
+    color: #F90;
+    text-decoration: underline;
+}
+.nav-country::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 205px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+}
+
+.navCountry:hover>.nav-country{
+    background-color: #22cccc;
+    display: block;
+
+}
+.list--country{
+    background-color: white;
+    height: 400px;
+    color: #0F1111;
+    padding: 15px;
+}
+.list--country>input, .list--country>p{
+    margin: 10px 10px;
+}
+.list--country>p{
+    margin-top: 25px;
+}
+.input-radio{
+    margin: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.input-radio>p{
+   margin-left: 5px;
+}
+.usd-change{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,178 @@
+.head{
+    height: 40px;
+    background-color: rgb(9, 16, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size:medium;
+    position: relative;
+    min-width: 1140px;
+
+}
+
+.space1{
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.sousHead{
+    display: flex;
+    width: 800px;
+}
+
+.menu>p{
+    padding-left: 5px;
+    font-size: larger;
+}
+
+.menu{
+    padding-left: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+}
+
+.burgerNav-item{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    z-index: 5;
+    width: 360px;
+    height: 100vh;
+}
+.burgerNav-item1{
+    position: fixed;
+    color: black;
+    top: 20px;
+    left: 360px;
+    font-size: 30px;
+
+}
+.close{
+    background-color: rgb(71, 179, 45);
+    left: 15px;
+}
+.profil{
+    background-color: rgb(18, 20, 48);
+    display: flex;
+    padding-left: 35px;
+    align-items: center;
+    height: 60px;
+    font-size: 30px;
+}
+.profil>p{
+    font-size:large;
+    padding-left: 6px;
+}
+.burgerNav-item2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    width: 360px;
+    
+}
+
+.burgerNav-item3{
+    width: 360px;
+    top: 0px;
+    left: 0;
+}
+
+.digital{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.iconMenu{
+    padding-top: 3px;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+    margin-left: 32px;
+}
+a:hover{
+    background-color: rgb(104, 104, 151);
+}
+.digital>h2{
+    color: black;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.list-for-sign-in{
+    background-color: rgb(245, 241, 241);
+    width: 500px;
+    /* height: 18vh; */
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    right: 10px;
+    margin-right: 45px;
+    color: black;
+    display: none;
+}
+
+.list-for-sign-in::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 75px;
+    width: 20px;
+    height: 20px;
+    background: rgb(22, 219, 55);
+    transform: rotate(45deg);
+
+}
+
+.button-sign-in{
+    background-color: rgb(241, 162, 14);
+    width: 190px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button-sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.new-customer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your-list-your-account{
+    display: flex;
+
+}
+
+.your-list-your-account-item{
+    width: 50%;
+    border-top: 1px solid rgb(243, 224, 224);
+    padding: 20px;
+}
+.your-list-your-account-item>p{
+    margin-bottom: 5px;
+}
+
+
+

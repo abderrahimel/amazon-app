@@ -1,0 +1,167 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    height: 100vh;
+    
+}
+
+span{
+    color: blue;
+}
+.help>span{
+    margin-top: 10px;
+    color: blue;
+}
+.signIn2>p{
+    padding-top: 10px;
+    font-size: 12px;
+    width: 280px;
+
+}
+.backTosignIn{
+    color: blue;
+}
+h4{
+    margin-top: 15px;
+    color: rgb(54, 59, 133);
+}
+.buttonContinue{
+    background-color: rgb(247, 205, 128);
+    height: 27px;
+    width: 302px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(141, 127, 127);
+    cursor: pointer;
+}
+.buttonContinue:hover{
+    background-color: rgb(240, 186, 87);
+
+}
+.logo1>img{
+    height: 40px;
+    width: 100px;
+}
+.signIn2>input{
+    margin-top: 2px;
+    border-radius: 4px;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    width: 300px;
+    border: 1px solid rgb(141, 127, 127);
+    margin-bottom: 15px;
+}
+.loginForm{
+    display: flex;
+    height: 90vh;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+    /* min-width: 40%; */
+}
+.signIn2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px 30px;
+    width: 40%;
+    min-width: 300px;
+    height: 250px;
+    border: 1px solid rgb(209, 199, 199);
+    
+}
+.changeuser{
+    margin-top: 10px;
+    display: flex;
+}
+.changeuser>span{
+    padding-left: 5px;
+}
+.agree{
+    display: flex;
+    position: relative;
+
+}
+.agree>input{
+    margin: 5px 0px;
+    position: absolute;   
+}
+.annee2{
+    font-size: small;
+    margin-left: 30px;
+}
+.agree>p{
+    margin-left: 20px;
+}
+.agree>p>span:hover, .condition>span:hover, .backTosignIn:hover{
+    text-decoration: underline;
+    color: rgb(236, 185, 88);
+    cursor: pointer;
+}
+
+.forgot{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgot>span:hover, .changeuser>span:hover{
+    text-decoration: underline;
+    color: rgb(236, 185, 88);
+    cursor: pointer;
+}
+.signUp{
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.signUpButton{
+    margin-top: 10px;
+    height: 42px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    min-width: 360px;
+    background-color: rgb(240, 245, 245);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 212, 212);
+}
+.createAmazon{
+    background-color: rgb(240, 245, 245);
+    width: 100%;
+}
+
+
+.bottom{
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.condition{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    font-size: small;
+}
+a:hover{
+    background: none;
+    border: none;
+    border-radius: 5px;
+
+}
